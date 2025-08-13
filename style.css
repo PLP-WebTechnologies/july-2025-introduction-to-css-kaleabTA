@@ -1,0 +1,70 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ccc;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Card Styling - Box Model in action */
+.card {
+    background-color: #e8f0fe;
+    margin: 20px 0;        /* Space outside the box */
+    padding: 15px;         /* Space inside the box */
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
